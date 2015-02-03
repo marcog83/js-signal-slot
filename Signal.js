@@ -4,7 +4,7 @@
     } else {
         root.Signal = factory();
     }
-}(function () {
+}(this,function () {
      /*
      <h2>Signal</h2>
      <p>Signals and slots are used for communication between objects. The signals and slots mechanism is a central feature of Qt </p>
